@@ -1,0 +1,133 @@
+/*
+Plugin Name: Vina Categories Treeview Widget
+Plugin URI: http://VinaThemes.biz
+Description: Great plugin allows display categories of the post in a tree view, like a file explorer.
+Version: 1.0
+Author: VinaThemes
+Author URI: http://VinaThemes.biz
+Author email: mr_hiennc@yahoo.com
+Demo URI: http://VinaDemo.biz
+Forum URI: http://VinaForum.biz
+License: GPLv3+
+*/
+
+div.vina-categories-treeview .treeview,
+div.vina-categories-treeview .treeview ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+div.vina-categories-treeview .treeview ul {
+	background-color: white;
+	margin-top: 4px;
+}
+div.vina-categories-treeview .treeview .hitarea {
+	background: url(../images/treeview-default.gif) -64px -25px no-repeat;
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+	float: left;
+	cursor: pointer;
+}
+/* fix for IE6 */
+* html .hitarea {
+	display: inline;
+	float:none;
+}
+div.vina-categories-treeview .treeview li { 
+	margin: 0;
+	padding: 3px 0pt 3px 16px;
+	line-height: 16px;
+}
+div.vina-categories-treeview .treeview a.selected {
+	background-color: #eee;
+}
+div.vina-categories-treeview .treecontrol { 
+	margin: 1em 0;
+	display: none; 
+}
+div.vina-categories-treeview .treeview .hover { 
+	color: red;
+	cursor: pointer;
+}
+div.vina-categories-treeview .treeview li { 
+	background: url(../images/treeview-default-line.gif) 0 0 no-repeat;
+}
+div.vina-categories-treeview .treeview li.collapsable, 
+div.vina-categories-treeview .treeview li.expandable {
+	background-position: 0 -176px;
+}
+
+div.vina-categories-treeview .treeview .expandable-hitarea {
+	background-position: -80px -3px;
+}
+div.vina-categories-treeview .treeview li.last {
+	background-position: 0 -1766px 
+}
+div.vina-categories-treeview .treeview li.lastCollapsable, 
+div.vina-categories-treeview .treeview li.lastExpandable { 
+	background-image: url(../images/treeview-default.gif);
+}  
+div.vina-categories-treeview .treeview li.lastCollapsable {
+	background-position: 0 -111px;
+}
+div.vina-categories-treeview .treeview li.lastExpandable {
+	background-position: -32px -67px;
+}
+div.vina-categories-treeview .treeview div.lastCollapsable-hitarea, 
+div.vina-categories-treeview .treeview div.lastExpandable-hitarea { 
+	background-position: 0;
+}
+div.vina-categories-treeview .treeview-red li { 
+	background-image: url(../images/treeview-red-line.gif);
+}
+div.vina-categories-treeview .treeview-red .hitarea, 
+div.vina-categories-treeview .treeview-red li.lastCollapsable, 
+div.vina-categories-treeview .treeview-red li.lastExpandable { 
+	background-image: url(../images/treeview-red.gif);
+} 
+div.vina-categories-treeview .treeview-black li { 
+	background-image: url(../images/treeview-black-line.gif);
+}
+div.vina-categories-treeview .treeview-black .hitarea, 
+div.vina-categories-treeview .treeview-black li.lastCollapsable, 
+div.vina-categories-treeview .treeview-black li.lastExpandable { 
+	background-image: url(../images/treeview-black.gif);
+}
+div.vina-categories-treeview .treeview-gray li { 
+	background-image: url(../images/treeview-gray-line.gif);
+}
+div.vina-categories-treeview .treeview-gray .hitarea, 
+div.vina-categories-treeview .treeview-gray li.lastCollapsable, 
+div.vina-categories-treeview .treeview-gray li.lastExpandable {
+	background-image: url(../images/treeview-gray.gif);
+} 
+div.vina-categories-treeview .treeview-famfamfam li { 
+	background-image: url(../images/treeview-famfamfam-line.gif);
+}
+div.vina-categories-treeview .treeview-famfamfam .hitarea, 
+div.vina-categories-treeview .treeview-famfamfam li.lastCollapsable, 
+div.vina-categories-treeview .treeview-famfamfam li.lastExpandable { 
+	background-image: url(../images/treeview-famfamfam.gif);
+} 
+div.vina-categories-treeview .filetree li {
+	padding: 3px 0 2px 16px;
+}
+div.vina-categories-treeview .filetree span.folder, 
+div.vina-categories-treeview .filetree span.file { 
+	padding: 1px 0 1px 16px; display: block;
+}
+div.vina-categories-treeview .filetree span.folder { 
+	background: url(../images/folder.gif) 0 0 no-repeat;
+}
+div.vina-categories-treeview .filetree li.expandable span.folder {
+	background: url(../images/folder-closed.gif) 0 0 no-repeat;
+}
+div.vina-categories-treeview .filetree span.file {
+	background: url(../images/file.gif) 0 0 no-repeat;
+}
+div#tcvn-copyright {
+	font-size: 12px;
+    height: 0;
+    overflow: hidden;
+}
