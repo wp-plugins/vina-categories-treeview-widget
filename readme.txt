@@ -12,7 +12,7 @@ Great plugin allows display categories of the post in a tree view, like a file e
 
 == Description ==
 
-The Vina Scroller Widget for WordPress is a good choice for showing serial content to bring more efficiency transferring information to readers. This is a highly customizable plugin to show you or your customer’s services, portfolio items, blog contents … basically all business information thinkable.
+Vina Categories Treeview Widget is a great plugin for Wordpress. It's allows display Wordpress Post Categories in a tree view, like a file explorer. This is useful for using Wordpress Post Categories as business directory or any listing type. Vina Categories Treeview Widget supported 3 styles: Default, File Tree and Red Tree View and you can set the root category, turn on/off displaying post count for each category ...
 
 Features:
 
